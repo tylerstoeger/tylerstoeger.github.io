@@ -1,42 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Work in Progress</title>
-  <style>
-    /* Basic reset and styling for centering */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .container {
-      text-align: center;
-      background: #fff;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin-bottom: 20px;
-      font-size: 2em;
-    }
-    p {
-      font-size: 1.1em;
-      color: #555;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tyler Stoeger | Economics PhD Candidate</title>
+  <meta name="description" content="Tyler Stoeger, Economics PhD candidate at the University of Illinois Chicago. Research in environmental economics, air quality information, and public policy.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Work in Progress</h1>
-    <p>This site is under construction. Please come back soon!</p>
-  </div>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#top">Tyler Stoeger</a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/docs/Tyler_Stoeger_CV.pdf">CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Economics PhD Candidate</p>
+        <h1>Tyler Stoeger</h1>
+        <p class="subtitle">Environmental economics, applied microeconomics, and public policy.</p>
+        <p class="body-copy">
+          I am an economics PhD candidate at the University of Illinois Chicago. My research studies how people respond to environmental information and what those responses imply for policy design.
+        </p>
+        <div class="button-row">
+          <a class="button primary" href="assets/docs/Tyler_Stoeger_CV.pdf">Download CV</a>
+          <a class="button" href="assets/docs/Tyler_Stoeger_JMP.pdf">Download JMP</a>
+        </div>
+      </div>
+
+      <aside class="profile-card" aria-label="Profile and contact information">
+        <!-- Replace this placeholder after you have a headshot.
+             Save the image as assets/img/headshot.jpg, then replace the div below with:
+             <img class="headshot" src="assets/img/headshot.jpg" alt="Tyler Stoeger">
+        -->
+        <div class="headshot-placeholder" aria-hidden="true">TS</div>
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:tstoeg2@uic.edu">tstoeg2@uic.edu</a></p>
+        <p><strong>Institution:</strong> University of Illinois Chicago</p>
+        <p><strong>Fields:</strong> Environmental economics, applied microeconomics</p>
+      </aside>
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research</h2>
+
+      <article class="paper-card">
+        <div class="paper-label">Job Market Paper</div>
+        <h3>Behavioral Responses to Air Quality Alerts and Optimal Alert Policy</h3>
+        <p class="authors">Tyler Stoeger</p>
+        <p>
+          This paper studies behavioral responses to air quality alerts and the implications of those responses for optimal alert policy. I combine air quality forecasts, alert issuances, and foot traffic data to estimate whether people reduce outdoor activity after alerts, whether responsiveness changes with recent alert history, and how those behavioral patterns affect the welfare-maximizing alert threshold.
+        </p>
+        <div class="link-row">
+          <a href="assets/docs/Tyler_Stoeger_JMP.pdf">Paper</a>
+          <a href="#">Slides forthcoming</a>
+        </div>
+      </article>
+
+      <article class="paper-card muted">
+        <h3>Selected Work in Progress</h3>
+        <p>
+          Add additional working papers, dissertation chapters, or works in progress here. Keep entries concise and focused on question, method, and contribution.
+        </p>
+      </article>
+    </section>
+
+    <section id="teaching" class="section">
+      <h2>Teaching</h2>
+      <p>
+        Add teaching assistantships, instructor roles, or selected teaching materials here. For the job market, this can be short unless teaching is central to your placement goals.
+      </p>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:tstoeg2@uic.edu">tstoeg2@uic.edu</a></p>
+      <p>Department of Economics, University of Illinois Chicago</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Tyler Stoeger. Last updated June 2026.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-<!-- This is a simple HTML page that informs users that the site is under construction. It uses basic CSS for styling and centering the content. -->
