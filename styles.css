@@ -175,6 +175,15 @@ h3 {
   letter-spacing: 0.08em;
 }
 
+.headshot {
+  width: 220px;
+  height: 220px;
+  border-radius: 28px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
 .section {
   padding: 2rem 0;
   border-top: 1px solid var(--border);
