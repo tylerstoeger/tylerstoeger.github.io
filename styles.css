@@ -155,8 +155,8 @@ h3 {
 .headshot,
 .headshot-placeholder {
   display: block;
-  width: min(100%, 380px);
-  aspect-ratio: 1 / 1;
+  width: min(100%, 360px);
+  aspect-ratio: 4 / 5;
   height: auto;
   border-radius: 32px;
   margin: 0 auto 2rem auto;
