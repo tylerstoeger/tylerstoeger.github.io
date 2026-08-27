@@ -192,6 +192,7 @@ h3 {
 .paper-card.muted {
   box-shadow: none;
   background: var(--accent-light);
+  border-color: #c7d7c2;
 }
 
 .paper-label {
