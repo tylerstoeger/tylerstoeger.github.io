@@ -8,7 +8,7 @@ Static website for GitHub Pages at `tylerstoeger.github.io`, configured for the 
 - `styles.css`: visual styling
 - `CNAME`: tells GitHub Pages to use `tylerstoeger.com`
 - `assets/docs/`: put CV and job market paper PDFs here
-- `assets/img/`: put a future headshot here
+- `assets/images/`: put a future headshot here
 
 ## Required PDF filenames
 
