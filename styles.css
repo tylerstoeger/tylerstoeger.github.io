@@ -1,12 +1,12 @@
 :root {
-  --bg: #f6f4ee;
+  --bg: #f3efe6;
   --panel: #ffffff;
   --text: #1f2933;
-  --muted: #68736a;
-  --border: #d8ddcf;
-  --accent: #3f5f46;
-  --accent-light: #eef3ea;
-  --shadow: 0 14px 34px rgba(31, 41, 51, 0.06);
+  --muted: #647067;
+  --border: #c9d2c2;
+  --accent: #2f5d3f;
+  --accent-light: #e7efe5;
+  --shadow: 0 14px 34px rgba(31, 41, 51, 0.07);
 }
 
 * {
